@@ -1,0 +1,16 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office/Power BI temp files
+~$*
+*.tmp
+
+# Power BI project (.pbip) local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Editors
+.vscode/
+.idea/
