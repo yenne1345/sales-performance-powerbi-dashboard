@@ -26,8 +26,6 @@ The data is fictional and covers **2020–2022**. It comes from four files:
 | Retail Target (Excel) | Target sales, rent and wages by store and date |
 | Department List (Excel) | Category ID mapped to department and group |
 
-**Grain:** one row in the sales table is the sales and margin for one store, one category and one week. One row in the target table is the target for one store on one date.
-
 **Data cleaning (Power Query):**
 - **Store details:** filled missing store types, split the location text into a clean state name, merged in store size, removed StoreID 99 and set data types.
 - **Sales:** removed header rows and blank stores, unpivoted the date columns into rows, converted text to dates, removed error rows, pivoted sales and margin back into columns and set data types.
@@ -86,7 +84,6 @@ Full details are in [dashboard-insights.md](dashboard-insights.md). Values read 
 
 ![Sales vs. Target](assets/sales-vs-target.png)
 
-- Sales of 4,048M were **108% of the 3,757M target**, a surplus of 292M, with CORE contributing most of it.
 - This year (2022), sales are **1,387M**: **+4.17%** versus the prior year (1,332M) and **+10.01%** versus the 1,261M target.
 - The quarterly chart shows sales below target in 2020, close to target in 2021 and above target in all four quarters of 2022.
 - Among the visible states, only **West Virginia (94%), Oklahoma (96%) and Nevada (98%)** fall short of target.
@@ -112,6 +109,6 @@ Simple Store beat its overall sales target by 8%, with CORE stores and Clothing 
 
 ## Tech Stack
 
-**Tools:** Power BI Desktop, Power Query, DAX
-**Data formats:** CSV, Excel (.xlsx)
+**Tools:** Power BI Desktop, Power Query, DAX \
+**Data formats:** CSV, Excel (.xlsx) \
 **Modeling:** Star schema
