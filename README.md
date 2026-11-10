@@ -109,6 +109,6 @@ Simple Store beat its overall sales target by 8%, with CORE stores and Clothing 
 
 ## Tech Stack
 
-**Tools:** Power BI Desktop, Power Query, DAX \
+**Tools:** Power BI Service, Power Query, DAX \
 **Data formats:** CSV, Excel (.xlsx) \
 **Modeling:** Star schema
